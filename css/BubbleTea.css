@@ -1,0 +1,14 @@
+@import url('https://fonts.googleapis.com/css2?family=Playpen+Sans:wght@100..800&display=swap');
+
+:root {
+    --c1 : #7B5038;
+    --c2 : #F4E9DE;
+    --c3: #FFFFFF;
+    --c4: #000000;
+}
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
