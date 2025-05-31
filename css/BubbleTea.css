@@ -48,9 +48,6 @@ body::-webkit-scrollbar-thumb{
 .navbar .nav-link.active {
   color: var(--c1);
 }
-.navbar .nav-link:active {
-  color: var(--c1);
-}
 .navbar .nav-link:focus {
   color: var(--c1);
 }
