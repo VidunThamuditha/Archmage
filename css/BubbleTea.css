@@ -466,11 +466,22 @@ body::-webkit-scrollbar-thumb{
 
 
 @media (max-width: 576px) {
+    .navbar {
+        padding-left: 1rem;
+        padding-right: 1rem;
+    }
+    .navbar-brand img{
+        margin-right: auto;
+        justify-content: left;
+        width: 90px;
+        height: auto;
+    }
     .navbar-toggler {
+        margin-left: auto;
         border: none;
         box-shadow: none !important;
         outline: none !important;
-        color: var(--c2);
+        color: var(--c1);
     }
     .navbar-collapse {
         position: absolute;
@@ -502,7 +513,6 @@ body::-webkit-scrollbar-thumb{
         padding: 1rem;
         border-radius: 8px;
     }
-
     .hero h1 {
         font-size: 28px;
         font-weight: 700;
@@ -518,34 +528,44 @@ body::-webkit-scrollbar-thumb{
         font-size: 14px;
         margin-bottom: 0.3rem;
     }
-
     .section-title {
         font-size: 1.8rem;
         margin-bottom: 1rem;
     }
-
     .section-text {
         font-size: 1rem;
         margin-bottom: 2rem;
         padding: 0 1rem;
     }
-
     .btn-custom {
         width: 100%;
         max-width: 240px;
         margin: 0 auto 2rem;
     }
-
     .about-section .text-center {
         text-align: center !important;
     }
-
     .about-section img {
         max-width: 90%;
         height: auto;
         margin: 0 auto;
         display: block;
     }
+    .about-section .section-subtitle,.section-title{
+       margin-left: 45px;
+       text-align: left;
+    }
+    .about-section .section-text{
+        margin-left: 30px;
+        text-align: left;
+        font-size: 14px;
+    }
+    .about-section .btn-custom {
+        width: 100%;
+        max-width: 240px;
+        margin-right: 5rem;
+    }
+    
     .products-section .row{
         flex-direction: column;
         align-items: center;
