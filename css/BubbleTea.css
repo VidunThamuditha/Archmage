@@ -503,6 +503,13 @@ body::-webkit-scrollbar-thumb{
         color: var(--c4);
     }
     .hero {
+        position: relative;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+       width: auto;
+       height: 100vh;
         background: url('../assets/Bubble Mobile Images/Group\ 1042.png') no-repeat center/cover;
         align-items: flex-end;
         padding-bottom: 2rem;
@@ -510,8 +517,8 @@ body::-webkit-scrollbar-thumb{
     .hero .container {
         position: relative;
         z-index: 1;
-        margin-top: 38rem;
-        margin-left: 0.3rem;
+        margin-top: 30rem;
+        margin-left: 1rem;
         margin-right: 1rem;
         text-align: left;
         padding: 1rem;
