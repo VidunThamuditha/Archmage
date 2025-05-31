@@ -111,6 +111,7 @@ body::-webkit-scrollbar-thumb{
   margin: 0;
   white-space: normal;
   word-break: break-word;
+  max-width: 450px;
 }
 /*about section*/
 .about-section {
@@ -150,7 +151,7 @@ body::-webkit-scrollbar-thumb{
   color:  var(--c3);
   width: 180px;              
   height: 50px;              
-  font-size: 1rem;
+  font-size: 16px;
   padding: 0;              
   display: inline-flex;   
   align-items: center;       
@@ -359,7 +360,7 @@ body::-webkit-scrollbar-thumb{
   display: flex;
   justify-content: center;
   align-items: center;
-  font-size: 1.2rem;
+  font-size: 16px;
   margin-right: 1rem;
 }
 .contact-form-container {
@@ -507,22 +508,27 @@ body::-webkit-scrollbar-thumb{
         padding-bottom: 2rem;
     }
     .hero .container {
-        margin-left: 1rem;
+        position: relative;
+        z-index: 1;
+        margin-top: 38rem;
+        margin-left: 0.3rem;
         margin-right: 1rem;
         text-align: left;
         padding: 1rem;
         border-radius: 8px;
     }
     .hero h1 {
-        font-size: 28px;
+        max-width: 90%;
+        font-size: 50px;
         font-weight: 700;
-        margin-bottom: 0.8rem;
+        margin-bottom: 0.9rem;
     }
 
     .hero h4 {
-        font-size: 14px;
+        font-size: 16px;
         line-height: 1.5;
         margin: 0;
+        max-width: 90%;
     }
     .section-subtitle {
         font-size: 14px;
@@ -565,7 +571,11 @@ body::-webkit-scrollbar-thumb{
         max-width: 240px;
         margin-right: 4rem;
     }
-    
+    .products-section .section-title{
+        text-align: center;
+        margin-left: auto;
+        font-size: 35px;
+    }
     .products-section .row{
         flex-direction: column;
         align-items: center;
