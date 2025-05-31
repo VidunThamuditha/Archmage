@@ -111,6 +111,7 @@ body::-webkit-scrollbar-thumb{
   margin: 0;
   white-space: normal;
   word-break: break-word;
+  max-width: 450px;
 }
 /*about section*/
 .about-section {
@@ -150,7 +151,7 @@ body::-webkit-scrollbar-thumb{
   color:  var(--c3);
   width: 180px;              
   height: 50px;              
-  font-size: 1rem;
+  font-size: 16px;
   padding: 0;              
   display: inline-flex;   
   align-items: center;       
@@ -359,7 +360,7 @@ body::-webkit-scrollbar-thumb{
   display: flex;
   justify-content: center;
   align-items: center;
-  font-size: 1.2rem;
+  font-size: 16px;
   margin-right: 1rem;
 }
 .contact-form-container {
@@ -466,11 +467,22 @@ body::-webkit-scrollbar-thumb{
 
 
 @media (max-width: 576px) {
+    .navbar {
+        padding-left: 1rem;
+        padding-right: 1rem;
+    }
+    .navbar-brand img{
+        margin-right: auto;
+        justify-content: left;
+        width: 90px;
+        height: auto;
+    }
     .navbar-toggler {
+        margin-left: auto;
         border: none;
         box-shadow: none !important;
         outline: none !important;
-        color: var(--c2);
+        color: var(--c1);
     }
     .navbar-collapse {
         position: absolute;
@@ -496,55 +508,73 @@ body::-webkit-scrollbar-thumb{
         padding-bottom: 2rem;
     }
     .hero .container {
-        margin-left: 1rem;
+        position: relative;
+        z-index: 1;
+        margin-top: 38rem;
+        margin-left: 0.3rem;
         margin-right: 1rem;
         text-align: left;
         padding: 1rem;
         border-radius: 8px;
     }
-
     .hero h1 {
-        font-size: 28px;
+        max-width: 90%;
+        font-size: 50px;
         font-weight: 700;
-        margin-bottom: 0.8rem;
+        margin-bottom: 0.9rem;
     }
 
     .hero h4 {
-        font-size: 14px;
+        font-size: 16px;
         line-height: 1.5;
         margin: 0;
+        max-width: 90%;
     }
     .section-subtitle {
         font-size: 14px;
         margin-bottom: 0.3rem;
     }
-
     .section-title {
         font-size: 1.8rem;
         margin-bottom: 1rem;
     }
-
     .section-text {
         font-size: 1rem;
         margin-bottom: 2rem;
         padding: 0 1rem;
     }
-
     .btn-custom {
         width: 100%;
         max-width: 240px;
         margin: 0 auto 2rem;
     }
-
     .about-section .text-center {
         text-align: center !important;
     }
-
     .about-section img {
         max-width: 90%;
         height: auto;
         margin: 0 auto;
         display: block;
+    }
+    .about-section .section-subtitle,.section-title{
+       margin-left: 45px;
+       text-align: left;
+    }
+    .about-section .section-text{
+        margin-left: 30px;
+        text-align: left;
+        font-size: 14px;
+    }
+    .about-section .btn-custom {
+        width: 100%;
+        max-width: 240px;
+        margin-right: 4rem;
+    }
+    .products-section .section-title{
+        text-align: center;
+        margin-left: auto;
+        font-size: 35px;
     }
     .products-section .row{
         flex-direction: column;
