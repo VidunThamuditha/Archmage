@@ -5,10 +5,376 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>bubble haus</title>
     <link rel="icon" href="assets\Bubble Web Images\Primary Logo.png">
+
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.6/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-4Q6Gf2aSP4eDXB8Miphtr37CMZZQ5oXLH2yaXMJ2w8e2ZtHTl7GptT4jmndRuHDT" crossorigin="anonymous">
+    <link rel="stylesheet" href="css\BubbleTea.css">
 </head>
 <body>
+    <!-- Navbar start -->
+    <nav class="navbar navbar-expand-lg navbar-light navbar-transparent fixed-top">
+        <div class="container">
+            <a class="navbar-brand" href="#">
+                <img src="assets/Bubble Web Images/Primary Logo.png" alt="Bubble Haus Logo" width="125" height="80" class="d-inline-block align-text-top">
+            </a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarContent"
+                aria-controls="navbarContent" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarContent">
+                <ul class="navbar-nav mx-auto mb-2 mb-lg-0">
+                    <li class="nav-item">
+                        <a class="nav-link active" href="#hero">Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#about">About Us</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#Products">Products</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#FAQs">FAQs</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#ContactUs">Contact Us</a>
+                    </li>
+                    <li class="nav-item d-lg-none">
+                        <a href="#bubblehaus" target="_blank" class="nav-link">
+                        <img src="assets/Bubble Web Images/web icons/cart.png" alt="Cart" class="cart-icon" width="40" height="40">
+                        </a>
+                    </li>
+                </ul>
+            </div>
+            <div class="d-none d-lg-flex">
+                <a href="#bubblehaus" target="_blank" class="btn-cart">
+                    <img src="assets\Bubble Web Images\web icons\cart.png" alt="Cart" class="cart-icon" width="50" height="50">
+                </a>
+            </div>
+        </div>
+    </nav>
+    <!-- Navbar end -->
 
+    <section class="hero d-flex align-items-center" id="hero">
+        <div class="container text-white">
+            <h1 class="display-4">Joy in Every Bubble Tea.</h1>
+            <h4 class="lead">
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do<br>
+                eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut<br>
+                enim ad minim veniam.
+            </h4>
+        </div>
+    </section>
+    
+    <!-- about section start -->
+    <section id="about" class="about-section ">
+        <div class="container">
+            <div class="row align-items-center">
+            <div class="col-12 col-lg-6 order-2 order-lg-1 text-center">
+                <img src="assets/Bubble Web Images/03c2ab3844da6a789bf162837684c81e.png" alt="About Image" class="img-fluid rounded">
+            </div>
+            <div class="col-12 col-lg-6 order-1 order-lg-2 text-center text-lg-start mt-4 mt-lg-0">
+                <p class="section-subtitle">About Us</p>
+                <h2 class="section-title">Our Bubble Tale</h2>
+                <p class="section-text">
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do <br>
+                eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut <br>
+                 enim ad minim veniam.
+                </p>
+                <a href="#" class="btn-custom">Load More</a>
+            </div>
+            </div>
+        </div>
+    </section>
+    <!-- about section end -->
+
+<!--product section start-->
+    <section id="Products" class="products-section py-5">
+        <div class="container text-center">
+            <p class="section-subtitle">Products</p>
+            <h2 class="section-title mb-4">Bubbles of Joy</h2>
+            <p class="section-text mb-5">
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam.
+            </p>
+
+            <div class="row justify-content-center g-4">
+                <div class="col-6 col-md-3">
+                    <div class="product-item">
+                        <div class="circle-wrapper">
+                            <img src="assets\Bubble Web Images\products\Milo.png" 
+                            alt="Milo Bubble Tea" class="product-img">
+                        </div>
+                    <p class="product-name mt-3">Milo Bubble Tea</p>
+                    </div>
+                </div>
+
+                <div class="col-6 col-md-3">
+                    <div class="product-item">
+                    <div class="circle-wrapper">
+                        <img src="assets\Bubble Web Images\products\Blueberry.png" 
+                        alt="Blueberry Bubble Tea" class="product-img">
+                    </div>
+                    <p class="product-name mt-3">Blueberry Bubble Tea</p>
+                    </div>
+                </div>
+
+                <div class="col-6 col-md-3">
+                    <div class="product-item">
+                        <div class="circle-wrapper">
+                            <img src="assets\Bubble Web Images\products\Strawberry.png" 
+                            alt="Strawberry Bubble Tea" class="product-img">
+                        </div>
+                        <p class="product-name mt-3">Strawberry Bubble Tea</p>
+                    </div>
+                </div>
+
+                <div class="col-6 col-md-3">
+                    <div class="product-item">
+                        <div class="circle-wrapper">
+                            <img src="assets\Bubble Web Images\products\Chocolate.png" 
+                            alt="Chocolate Bubble Tea" class="product-img">
+                        </div>
+                        <p class="product-name mt-3">Chocolate Bubble Tea</p>
+                    </div>
+                </div>
+                <a href="#" class="btn-custom">More Products</a>
+            </div>
+        </div>
+    </section>
+<!--product section end-->
+
+    <!--Content Section Start-->
+    <section class="content d-flex align-items-center" id="content">
+        <div class="container text-white">
+            <div class="row justify-content-end">
+                <div class="col-lg-6  content-text">
+                    <h1 class="display-4 title">Buy 1 Get 1 Free</h1>
+                    <h4 class="lead text-box">
+                        Lorem ipsum dolor sit amet, consectetur adipiscing elit,sed do eiusmod tempor <br>incididunt ut labore et dolore magna aliqua.
+                    </h4>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!--Content Section End-->
+    
+    <!--Testimonial Section Start-->
+    <section id="testimonials" class="testimonial-section py-5">
+        <div class="container text-center topic">
+            <p class="section-subtitle">Testimonials</p>
+            <h2 class="section-title mb-5">Bubble Bliss Reviews</h2>
+            <p class="section-text mb-5">
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore <br> magna aliqua. Ut enim ad minim veniam.
+            </p>
+            <div id="testimonialCarousel" class="carousel  testimonial-carousel" data-bs-ride="carousel">
+                <div class="carousel-inner">
+                    <div class="carousel-item active">
+                        <div class="row justify-content-center align-items-start gx-5">
+                            
+                            <div class="col-md-5 d-flex align-items-start">
+                                <img src="assets/Bubble Web Images/cute-smiling-young-man-with-bristle-looking-satisfied.png" class="testimonial-img me-4" alt="Testimonial Image">
+                                <div class="testimonial-content text-start">
+                                    <p class="testimonial-text">
+                                    Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam. quis nostrud exercitation ullamco laboris 
+                                    </p>
+                                    <p class="testimonial-author">- John Treve -</p>
+                                    <div class="testimonial-stars">
+                                        <img src="assets/Bubble Web Images/web icons/Icon ionic-ios-star.png" alt="Star" class="star-icon">
+                                        <img src="assets/Bubble Web Images/web icons/Icon ionic-ios-star.png" alt="Star" class="star-icon">
+                                        <img src="assets/Bubble Web Images/web icons/Icon ionic-ios-star.png" alt="Star" class="star-icon">
+                                        <img src="assets/Bubble Web Images/web icons/Icon ionic-ios-star.png" alt="Star" class="star-icon">
+                                        <img src="assets/Bubble Web Images/web icons/Icon ionic-ios-star.png" alt="Star" class="star-icon">
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="col-md-5 d-flex align-items-start">
+                                <img src="assets/Bubble Web Images/cute-smiling-young-man-with-bristle-looking-satisfied.png" class="testimonial-img me-4" alt="Testimonial Image">
+                                <div class="testimonial-content text-start">
+                                    <p class="testimonial-text">
+                                    Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam. quis nostrud exercitation ullamco laboris 
+                                    </p>
+                                    <p class="testimonial-author">- Anne Frank -</p>
+                                    <div class="testimonial-stars">
+                                        <img src="assets/Bubble Web Images/web icons/Icon ionic-ios-star.png" alt="Star" class="star-icon">
+                                        <img src="assets/Bubble Web Images/web icons/Icon ionic-ios-star.png" alt="Star" class="star-icon">
+                                        <img src="assets/Bubble Web Images/web icons/Icon ionic-ios-star.png" alt="Star" class="star-icon">
+                                        <img src="assets/Bubble Web Images/web icons/Icon ionic-ios-star.png" alt="Star" class="star-icon">
+                                        <img src="assets/Bubble Web Images/web icons/Icon ionic-ios-star.png" alt="Star" class="star-icon">
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="carousel-item">
+                        <div class="row justify-content-center align-items-start g-4">   
+                            <div class="col-md-5 d-flex align-items-start">
+                                <img src="assets/Bubble Web Images/cute-smiling-young-man-with-bristle-looking-satisfied.png" class="testimonial-img me-4" alt="Testimonial Image">
+                                <div class="testimonial-content text-start">
+                                <p class="testimonial-text">
+                                    Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam. quis nostrud exercitation ullamco laboris 
+                                </p>
+                                <p class="testimonial-author">- Anne Frank -</p>
+                                <div class="testimonial-stars">
+                                        <img src="assets/Bubble Web Images/web icons/Icon ionic-ios-star.png" alt="Star" class="star-icon">
+                                        <img src="assets/Bubble Web Images/web icons/Icon ionic-ios-star.png" alt="Star" class="star-icon">
+                                        <img src="assets/Bubble Web Images/web icons/Icon ionic-ios-star.png" alt="Star" class="star-icon">
+                                        <img src="assets/Bubble Web Images/web icons/Icon ionic-ios-star.png" alt="Star" class="star-icon">
+                                        <img src="assets/Bubble Web Images/web icons/Icon ionic-ios-star.png" alt="Star" class="star-icon">
+                                </div>
+                                </div>
+                            </div>
+                            <div class="col-md-5 d-flex align-items-start">
+                                <img src="assets/Bubble Web Images/cute-smiling-young-man-with-bristle-looking-satisfied.png" class="testimonial-img me-4" alt="Testimonial Image">
+                                <div class="testimonial-content text-start">
+                                <p class="testimonial-text">
+                                    Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam. quis nostrud exercitation ullamco laboris 
+                                </p>
+                                <p class="testimonial-author">- Anne Frank -</p>
+                                <div class="testimonial-stars">
+                                        <img src="assets/Bubble Web Images/web icons/Icon ionic-ios-star.png" alt="Star" class="star-icon">
+                                        <img src="assets/Bubble Web Images/web icons/Icon ionic-ios-star.png" alt="Star" class="star-icon">
+                                        <img src="assets/Bubble Web Images/web icons/Icon ionic-ios-star.png" alt="Star" class="star-icon">
+                                        <img src="assets/Bubble Web Images/web icons/Icon ionic-ios-star.png" alt="Star" class="star-icon">
+                                        <img src="assets/Bubble Web Images/web icons/Icon ionic-ios-star.png" alt="Star" class="star-icon">
+                                </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="carousel-indicators mt-6">
+                    <button type="button"  data-bs-slide-to="0"  aria-label="Slide 1"class="active" aria-current="true"></button>
+                    <button type="button"  data-bs-slide-to="1"  aria-label="Slide 2"></button>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!--Testimonial Section End-->
+
+    <!--Contact Us Section Start-->
+    <section class="contact-section" id="ContactUs">
+        <div class="container-fluid px-0">
+            <div class="text-container text-center mb-5">
+                    <p class="section-subtitle">Contact Us</p>
+                    <h2 class="section-title mb-4">Contact Bubble Bliss</h2>
+            </div>
+            <div class="text-container text-center">
+                <!-- Left Side: Image with Contact Info -->
+                <div class="col-md-10 contact-left position-relative">
+                    <img src="assets\Bubble Web Images\Group 1046.png" class="img-fluid" alt="Contact Image">
+                    <div class="contact-info-overlay">
+                        <div class="contact-item">
+                            <img src="assets\Bubble Web Images\Group 1003.png" alt="phone" class="contact-icon">
+                            <div>
+                                <h6>Phone</h6>
+                                <p>+123 456 789</p>
+                            </div>
+                        </div>
+                        <div class="contact-item">
+                            <img src="assets\Bubble Web Images\Group 1004.png" alt="Address" class="contact-icon">
+                            <div>
+                                <h6>Address</h6>
+                                <p>No. 17, 5th Street, Colombo 07</p>
+                            </div>
+                        </div>
+                        <div class="contact-item">
+                            <img src="assets\Bubble Web Images\Group 1005.png" alt="email" class="contact-icon">
+                            <div>
+                                <h6>Email</h6>
+                                <p>bubbletea@gmail.com</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <!--  Contact Form -->
+                <div class="col-md-6 d-flex  align-items-center contact-form-container">
+                    <form class="contact-form">
+                        <div class="mb-5">
+                            <input type="name" class="form-control custom-input" placeholder="Name *" required >
+                        </div>
+                        <div class="mb-5">
+                            <input type="email" class="form-control custom-input" placeholder="Email">
+                        </div>
+                        <div class="mb-5">
+                            <input type="tel" class="form-control custom-input" placeholder="Phone Number *" required>
+                        </div>
+                        <div class="mb-5">
+                            <textarea class="form-control custom-input" rows="4" placeholder="Message"></textarea>
+                        </div>
+                        <div class="text-center mt-4">
+                            <button type="submit" class="btn btn-custom px-5 py-2">Send</button>
+                        </div>
+                    </form>
+                </div>
+
+            </div>
+        </div>
+    </section>
+    <!--Contact Us Section End-->
+
+    <section  class="main-footer">
+        <div class="container">
+            <div class="row">
+            <!-- Left Column -->
+            <div class="col-md-4 mb-4 mb-md-0 text-center text-md-start">
+                <img src="assets/Bubble Web Images/Primary Logo.png" alt="Logo" class="footer-logo mb-3">
+                <p class="footer-details">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+                <div class="footer-icons mt-3">
+                    <a href="#"><img src="assets\Bubble Web Images\web icons\Icon ionic-logo-whatsapp.png" alt="WhatsApp" class="footer-icon"></a>
+                    <a href="#"><img src="assets\Bubble Web Images\web icons\Icon awesome-facebook.png" alt="Facebook" class="footer-icon"></a>
+                    <a href="#"><img src="assets\Bubble Web Images\web icons\Icon awesome-instagram.png" alt="Instagram" class="footer-icon"></a>
+                    <a href="#"><img src="assets\Bubble Web Images\web icons\Icon ionic-logo-youtube.png" alt="YouTube" class="footer-icon"></a>
+                </div>
+            </div>
+
+            <!-- Quick Links -->
+            <div class="col-md-4 mb-4 mb-md-0 text-center text-md-start ms-md-5">
+                <h5 class="footer-heading">Quick Links</h5>
+                <ul class="list-unstyled footer-links">
+                    <li><a href="#hero">Home</a></li>
+                    <li><a href="#about">About Us</a></li>
+                    <li><a href="#Products">Products</a></li>
+                    <li><a href="#">FAQs</a></li>
+                    <li><a href="#ContactUs">Contact Us</a></li>
+                    <li><a href="#">Privacy Policy</a></li>
+                    <li><a href="#">Terms & Conditions</a></li>
+                </ul>
+            </div>
+
+            <!-- Contact Us -->
+            <div class="col-md-3 text-center text-md-start">
+                <h5 class="footer-heading">Contact Us</h5>
+                <p><strong>Address</strong><br> Lorem ipsum dolor sit amet, consectetur</p>
+                <p><strong>Phone</strong><br> +123 456 7890</p>
+            </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer Start -->
+     <footer class="site-footer">
+        <div class="container d-flex justify-content-between flex-wrap copyright">
+            <h4 class="mt-mb-4">Copyright © 2025 Bubble Tea (Pvt) Ltd. All Rights Reserved.</h4>
+            <h4 class="mb-0">Designed & Developed By <span class="dev-name">Archmage Solutions</span></h4>
+        </div>
+    </footer>
+
+     <!--Footer End-->
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.6/dist/js/bootstrap.bundle.min.js" integrity="sha384-j1CDi7MgGQ12Z7Qab0qlWQ/Qqz24Gc6BM0thvEMVjHnfYGF0rmFCozFSxQBxwHKO" crossorigin="anonymous"></script>
+    
+    <script>
+        document.addEventListener('DOMContentLoaded', () => {
+            const navbar = document.querySelector('.navbar');
+
+            window.addEventListener('scroll',() => {
+                if (window.scrollY > 80) {
+                    navbar.classList.add('navbar-scrolled');
+                } else {
+                    navbar.classList.remove('navbar-scrolled');
+                }
+            });
+        });
+        
+    </script>
 </body>
 </html>
